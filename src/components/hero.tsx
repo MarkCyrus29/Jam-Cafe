@@ -27,8 +27,9 @@ export default function Hero() {
         </h1>
 
         <p className="mx-auto mb-8 max-w-xl text-lg leading-relaxed text-white/90">
-          Experience specialty coffee, handmade jams, and pastries crafted with
-          passion at JAM Cafe. Your neighborhood café in Lipa City.
+          Experience expertly brewed coffee, hearty breakfasts, delicious
+          pastas, and freshly baked treats crafted with care at JAM Cafe — your
+          cozy neighborhood café in Lipa City.
         </p>
 
         {/* CTA Buttons */}
