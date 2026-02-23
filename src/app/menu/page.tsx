@@ -121,11 +121,6 @@ const menuItems = {
       price: '₱95',
       description: 'Fudgy brownies made from scratch',
     },
-    {
-      name: 'Jam Tart',
-      price: '₱75',
-      description: 'Our signature handmade jam in a pastry shell',
-    },
   ],
 }
 
@@ -152,7 +147,7 @@ function MenuCategory({
               <h3 className="text-lg font-serif font-bold text-foreground">
                 {item.name}
               </h3>
-              <span className="text-primary font-semibold ml-4 flex-shrink-0">
+              <span className="text-primary font-semibold ml-4 shrink-0">
                 {item.price}
               </span>
             </div>
@@ -168,7 +163,7 @@ export default function MenuPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
-      <main className="flex-grow">
+      <main className="grow">
         {/* Header */}
         <section className="bg-secondary/10 border-b border-border/40 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

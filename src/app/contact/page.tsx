@@ -42,7 +42,7 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
-      <main className="flex-grow">
+      <main className="grow">
         {/* Header */}
         <section className="bg-secondary/10 border-b border-border/40 py-12 md:py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -69,7 +69,7 @@ export default function ContactPage() {
                 <div className="space-y-8">
                   {/* Address */}
                   <div className="flex gap-4">
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                         <MapPin className="w-6 h-6 text-primary" />
                       </div>
@@ -87,7 +87,7 @@ export default function ContactPage() {
 
                   {/* Hours */}
                   <div className="flex gap-4">
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                         <Clock className="w-6 h-6 text-primary" />
                       </div>
@@ -115,7 +115,7 @@ export default function ContactPage() {
 
                   {/* Phone */}
                   <div className="flex gap-4">
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                         <Phone className="w-6 h-6 text-primary" />
                       </div>
@@ -130,7 +130,7 @@ export default function ContactPage() {
 
                   {/* Email */}
                   <div className="flex gap-4">
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                         <Mail className="w-6 h-6 text-primary" />
                       </div>
@@ -147,7 +147,7 @@ export default function ContactPage() {
 
                   {/* Social */}
                   <div className="flex gap-4">
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                         <Facebook className="w-6 h-6 text-primary" />
                       </div>
@@ -274,6 +274,7 @@ export default function ContactPage() {
               </h2>
               <div className="w-full h-96 rounded-lg overflow-hidden border border-border/40 bg-secondary/10 flex items-center justify-center">
                 <iframe
+                  title="Jam Cafe Location on Google Maps"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873.2419566881695!2d121.14935837490995!3d13.884475686521393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd1347aedda4dd%3A0x3b8b1902cbed26a9!2sJAM%20Cafe!5e0!3m2!1sen!2sph!4v1768875807480!5m2!1sen!2sph"
                   className="border-0 w-full h-full"
                   allowFullScreen
@@ -281,23 +282,6 @@ export default function ContactPage() {
                   referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
-            </div>
-
-            {/* Additional Info */}
-            <div className="bg-accent/5 rounded-lg p-8 border border-border/40">
-              <h3 className="text-2xl font-serif font-bold text-foreground mb-4">
-                Special Requests & Catering
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Planning an event? Need custom cakes or large jam orders? We
-                offer catering and special order services. Please reach out
-                through our contact form or send us a message on Facebook to
-                discuss your requirements.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                We also accommodate dietary restrictions - just let us know your
-                needs when ordering!
-              </p>
             </div>
           </div>
         </section>

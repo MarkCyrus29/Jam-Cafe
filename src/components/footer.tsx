@@ -85,7 +85,7 @@ export default function Footer() {
                 <Instagram size={18} /> Instagram
               </a>
               <div className="flex items-start gap-2 text-sm text-muted-foreground">
-                <MapPin size={18} className="flex-shrink-0 mt-0.5" />
+                <MapPin size={18} className="shrink-0 mt-0.5" />
                 <span>
                   Plaza De Mabini, Purok 6, Brgy Mabini, Lipa City, Philippines
                 </span>
